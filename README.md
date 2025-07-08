@@ -4,44 +4,6 @@ This project implements a Library Management System database built entirely in O
 
 ---
 
-##  Repository Structure
-
-library-management-system-sql/
-
-
-├── docs/
-
-│ ├── outputs
-
-| |  ├──Book_Output.png
-
-| |  ├──Borrow_Record_Output.png
-
-| |  ├──Member_Output.png
-
-| |  ├──Staff_Output.png
-
-| ├── Project Presentation.pdf
-
-| ├── Project_Overview.png
-
-| ├── Relational_Model.png
-
-
-
-├── oracle-sql/
-
-│ ├── schema_oracle.sql
-
-│ ├── insert_data_oracle.sql
-
-│ ├── queries_oracle.sql
-
-├──README.md
-
-
----
-
 ##  Technologies
 
 - Oracle SQL
