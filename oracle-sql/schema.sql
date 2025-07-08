@@ -1,0 +1,35 @@
+CREATE TABLE Member (
+Member_ID INT PRIMARY KEY,
+Name VARCHAR(100),
+Email VARCHAR(100),
+Phone VARCHAR(15),
+Address VARCHAR(255),
+Membership_Status VARCHAR(50)
+);
+CREATE TABLE Book (
+Book_ID INT PRIMARY KEY,
+Title VARCHAR(255),
+Author VARCHAR(100),
+Genre VARCHAR(50),
+ISBN VARCHAR(20),
+Book_Status VARCHAR(50)
+);
+CREATE TABLE Staff (
+Staff_ID INT PRIMARY KEY,
+Name VARCHAR(100),
+Role VARCHAR(50),
+Contact VARCHAR(15),
+Email VARCHAR(100)
+);
+CREATE TABLE BorrowRecord (
+Borrow_ID INT PRIMARY KEY,
+Member_ID INT,
+Book_ID INT,
+Staff_ID INT,
+Borrow_Date DATE,
+Return_Date DATE,
+Fine DECIMAL(5, 2),
+FOREIGN KEY (Member_ID) REFERENCES Member(Member_ID),
+FOREIGN KEY (Book_ID) REFERENCES Book(Book_ID),
+FOREIGN KEY (Staff_ID) REFERENCES Staff(Staff_ID)
+);
