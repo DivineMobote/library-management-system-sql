@@ -10,18 +10,31 @@ library-management-system-sql/
 
 
 ├── docs/
+
 │ ├── outputs
+
 | |  ├──Book_Output.png
+
 | |  ├──Borrow_Record_Output.png
+
 | |  ├──Member_Output.png
+
 | |  ├──Staff_Output.png
+
 | ├── Project Presentation.pdf
+
 | ├── Project_Overview.png
+
 | ├── Relational_Model.png
 
+
+
 ├── oracle-sql/
+
 │ ├── schema_oracle.sql
+
 │ ├── insert_data_oracle.sql
+
 │ ├── queries_oracle.sql
 
 ├──README.md
@@ -29,14 +42,14 @@ library-management-system-sql/
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 - Oracle SQL
 - SQL Developer for running scripts
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Connect to your Oracle SQL environment (e.g. SQL Developer).
 2. Run:
